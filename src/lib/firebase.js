@@ -3,16 +3,16 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
-import { apiKey } from "../../keys";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: apiKey,
-    authDomain: "react-blog-b4ada.firebaseapp.com",
-    projectId: "react-blog-b4ada",
-    storageBucket: "react-blog-b4ada.appspot.com",
-    messagingSenderId: "570365255686",
-    appId: "1:570365255686:web:f32cfca9d6dd120dfba387"
-};
+    apiKey: "AIzaSyBXy3wiev_a1krPQLuzJ8A2zg4RwFWAv-M",
+    authDomain: "blog-677dd.firebaseapp.com",
+    projectId: "blog-677dd",
+    storageBucket: "blog-677dd.appspot.com",
+    messagingSenderId: "917026219500",
+    appId: "1:917026219500:web:0400ccd9030efd9e48ccc9",
+    measurementId: "G-Q9PBDXCQCN"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
